@@ -4,11 +4,9 @@ FloRider AI is a modular AI-powered data intelligence system designed to transfo
 
 >VISIT FLORIDER WEB: [@FloRider • AI ](https://florider-ai.netlify.app/home)
 
-<img width="1352" height="688" alt="FloRider" src="https://github.com/user-attachments/assets/e19fc2a7-b54b-423c-a545-d0c351986a78" />
-
 ---
 
-## *Note
+## • Note •
 To unlock the full functionality of FloRider AI, users must configure their API key using the BYOK (Bring Your Own Key) section available via the interface button. This enables the AI-powered features and ensures personalized, secure access to the underlying language models.
 
 ---
@@ -137,14 +135,6 @@ Currently, FloRider AI operates without a primary database layer and processes a
 * The system is computation-focused rather than storage-focused
 * Most operations are real-time transformations
 * Avoids unnecessary latency and infrastructure complexity
-
-### Future Considerations
-
-A database layer may be introduced for:
-
-* Caching LLM responses (Redis)
-* Storing processed datasets (MongoDB / PostgreSQL)
-* User session tracking and analytics
 
 ---
 
@@ -295,7 +285,7 @@ The frontend uses a unified connector:
 * Enables dynamic routing
 * Standardizes responses
 
-Example routing logic:
+Routing logic:
 
 * Table data present → `/table`
 * File present → `/graph`
@@ -311,35 +301,5 @@ Example routing logic:
 
 ---
 
-## Future Enhancements
-
-* Streaming LLM responses
-* Graph visualization engine
-* Authentication and rate limiting
-* Multi-model support
-* Persistent storage layer
-* Real-time collaboration features
-
----
-
-## Installation
-
-### Backend
-
-```
-pip install fastapi uvicorn requests python-multipart PyPDF2
-uvicorn main:app --reload
-```
-
-### Frontend
-
-```
-npm install
-npm run dev
-```
-
-## Vision
-
-FloRider AI is designed as a foundation for intelligent data systems where structured insights can be generated from any form of input with minimal user effort and maximum interpretability.
-
----
+## License
+FloRider • AI is distributed under the terms defined in LICENSE.
