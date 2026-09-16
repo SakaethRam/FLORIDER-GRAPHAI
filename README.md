@@ -302,4 +302,4 @@ Routing logic:
 ---
 
 ## License
-FloRider • AI is distributed under the terms defined in LICENSE.
+FloRider • AI is distributed under the terms defined in `LICENSE`.
