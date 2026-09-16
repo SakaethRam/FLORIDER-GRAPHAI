@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      # Fallback for local dev only. In production the Gemini key is
+      # supplied per-request via BYOK from the frontend, not read from
+      # a server-side environment variable.
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      - PORT=8000
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
