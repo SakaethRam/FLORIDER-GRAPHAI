@@ -1,8 +1,8 @@
 # FloRider • AI
 
-FloRider AI is a modular AI-powered data intelligence system designed to transform raw inputs into structured insights, graph representations, and entity-relationship models. The platform integrates large language models with deterministic preprocessing pipelines to enable reliable, domain-constrained analysis of datasets and tabular data.
+FloRider AI ([@FloRiderAI ](https://florider-ai.netlify.app/home)) is a modular AI-powered data intelligence system designed to transform raw inputs into structured insights, graph representations, and entity-relationship models. The platform integrates large language models with deterministic preprocessing pipelines to enable reliable, domain-constrained analysis of datasets and tabular data.
 
->VISIT FLORIDER WEB: [@FloRider • AI ](https://florider-ai.netlify.app/home)
+<img width="1800" height="1000" alt="ZREX FLORIDER" src="https://github.com/user-attachments/assets/363c8bff-63af-46f7-8643-575758862876" />
 
 ---
 
